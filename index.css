@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+div{
+    text-align: center;
+    padding: auto;
+    font-family: 'Cantora One';
+    font-size:1rem;
+}
+a{
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(177, 250, 244);
+    text-shadow: 0 1px 3px #2A1B3D, 0 1px 3px #2A1B3D;
+    font-weight: bold;
+}
+
+#header{
+    background-image:linear-gradient(to right,#2A1B3D, #44318D);
+    color: whitesmoke;   
+}
+#footer{
+    
+    background-image:linear-gradient(to right,#2A1B3D, #44318D);
+    color: whitesmoke;
+    font-family: Bradley Hand, cursive;
+}
+
+#devloper{
+    width : 100%;
+    height :auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    padding-top:3%;
+}
+#portfolio{
+    color: #f56666;
+    text-shadow: -2px 1px 11px #281919, 0px 0px 11px rgb(50 67 86 / 50%), 0 0 28px #080c10;
+    font-weight:900;
+    font-family:"sofia";
+    padding:1%;
+    margin-top:2%;
+}
+
+#portfolio2{
+    color: #f56666;
+    text-shadow: -2px 1px 11px #281919, 0px 0px 11px rgb(50 67 86 / 50%), 0 0 28px #080c10;
+    font-weight:900;
+    font-family:"sofia";
+    padding:1%;
+}
+div.col{
+    padding: 2%;
+}
+#Logo{
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;   
+}
+#hi{
+    font-family:"Berkshire Swash";
+    text-shadow: 1px 1px 8px #3f97ff, 2Px 2px 12px rgb(36 36 54);
+    font-size:3rem;
+}
+.llabel{
+    font-family:"Akaya Kanadaka";
+    margin-left: 35%;
+    font-size: 23px;
+}
+#quality{
+    padding:6%;
+    color: #ffffff;
+}
+#q1>h5{
+    color: #2A1B3D;
+}
+#q1{
+    border-radius:1%;
+    box-shadow: 0px 0px 9px #4d36a8;
+    padding:3%;
+    font-size:16px;
+     color:rgb(122, 122, 122);
+}
+#q1:hover {
+    -ms-transform: scale(1.15); 
+    transform: scale(1.15); 
+    transition: all 0.35s;
+  }
+
+.icons{
+    padding: 15%;
+    color:#44318D;
+}
+.learn{
+    color:white;
+    cursor:pointer;
+    background-color :#44318D; 
+    padding:3% 15%;
+    border-radius:12%;
+    box-shadow: 2px 2px 4px rgb(22, 21, 43);
+}
+.learn:hover{
+    background-color:#5a3dce;
+}
+#My_Works{
+    margin-top:3%;
+    color:grey;
+}
+.heading{
+    color: #2A1B3D;
+    font-weight:900;
+    font-family:"Berkshire Swash";
+}
+#r1{
+    margin-top:3%;
+    margin-left:1%;
+}
+#r2{
+    margin-bottom:5%;
+    margin-left:1%;
+}
+#p1{
+    margin:1%;
+    padding:0.2%;
+    box-shadow: 2px 2px 6px rgb(143, 139, 139);
+}
+#p1:hover{
+    box-shadow: 2px 2px 23px rgb(59, 59, 59);
+}
+#p1:active{
+    -ms-transform: scale(1.15); 
+    transform: scale(1.15); 
+    transition: all 0.35s;
+}
+#About{
+    background-image:url(about5.jpg);
+    background-size: cover;
+    padding:2%;
+    box-shadow: 2px 2px 2px black;
+}
+
+#Aboutpic>img{
+    max-width: 100%;
+    height: auto; 
+    transform: rotate(7deg);
+}
+#Aboutpic>img:hover{
+transform: scale(0.9, 0.9) rotate(0deg);
+transition: all 0.40s;
+}
+#About_me{
+    font-family:"Berkshire Swash";
+    text-shadow: 1px 1px 8px #580a1b, 2Px 2px 12px rgb(99, 32, 32);
+    padding:1%;
+    color:#ffffff;
+}
+#aboutpara{
+    opacity:0.4;
+    padding: 2%;
+    background-color: #ffffff;
+    border: 1px rgb(54, 57, 68);
+    border-radius:20%;
+}
+#aboutpara>p{
+    margin: 5%;
+    font-weight:500;
+    color: #3f1111;
+    opacity: 1;
+}
+#aboutpara:hover{
+    background-color: #ffffff;
+    opacity:0.5;
+}
+#major{
+    padding: 2%;
+    color: #ffffff;
+}
+#skills{
+    opacity:0.4;
+    padding: 0.3%;
+    background-color: #ffffff;
+    border: 1px rgb(54, 57, 68);
+    border-radius:20%;
+    color:#1f040a;
+    font-size: 15px;
+    width: 100%;
+}
+#skills:hover{
+    background-color: #ffffff;
+    opacity:0.5;
+}
+
+#Hire{
+    padding:4%;
+    margin:6%;
+}
+#hireme{
+    color: #2A1B3D;
+    font-weight:900;
+}
+input{
+    width:100%;
+    padding: 7px 31px;
+    margin: 8px 13px;
+    display: inline-block;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border:3px solid #44318D;
+}
+input:hover{
+background-color:rgb(161, 185, 219);
+}
+#button{
+    float:left;
+    margin:2%;
+    padding-top: 3%;
+}
+.submit{
+    color:white;
+    cursor:pointer;
+    background-color :#44318D; 
+    padding: 5% 27%;
+    border-radius: 21%;
+    box-shadow: 2px 2px 4px rgb(22, 21, 43);
+}
+.submit:hover{
+    background-color:#5a3dce; 
+}
+#info{
+    padding-top:2%;
+}
+#footer{
+    padding: 2%;
+}
+
+#hear{
+    font-family:"Berkshire Swash";
+}
+#contact{
+    font-family:"Berkshire Swash";
+}
+
